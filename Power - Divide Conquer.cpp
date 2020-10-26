@@ -1,7 +1,7 @@
 //Author: Shaun Robinson
 //Program: Power
 //Description: Takes and integer and multiplys it by itself a
-// number of time specified by user
+//number of time specified by user
 
 #include<iostream>
 using namespace std;
@@ -27,7 +27,8 @@ int main() {
 	power = 12;
 	result = exponent(base, power);
 
-	cout << result << endl;
+	cout << base << " to the power of " << power << " is: " << result << endl;
+	cout << "Hello?" << endl;
 	
 	return 0;
 }
